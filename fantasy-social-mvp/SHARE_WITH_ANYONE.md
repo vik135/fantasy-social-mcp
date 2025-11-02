@@ -1,7 +1,5 @@
 # 🏈 Fantasy Football Social - Share This!
 
-## For Your Brother (or Anyone Non-Technical)
-
 ### 🌟 THREE WAYS TO USE THIS APP:
 
 ---
