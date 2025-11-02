@@ -1,11 +1,28 @@
+# Streamlit Configuration (Updated Nov 2025)
+
 [theme]
+# Brand colors
 primaryColor = "#1F4788"
 backgroundColor = "#FFFFFF"
 secondaryBackgroundColor = "#F0F2F6"
 textColor = "#262730"
 font = "sans serif"
 
+# 2025 additions - enhanced styling
+buttonRadius = "0.5rem"
+codeFontSize = "0.9rem"
+
 [server]
+# Server configuration for Streamlit Cloud deployment
 headless = true
-enableCORS = false
+
+# Security settings (both must be true for proper CSRF protection)
+enableCORS = true
 enableXsrfProtection = true
+
+# Performance
+maxUploadSize = 200
+
+[browser]
+# Prevent the browser from trying to gather usage stats
+gatherUsageStats = false
