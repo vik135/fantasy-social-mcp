@@ -1,6 +1,15 @@
 *.db
+*.sqlite
+*.sqlite3
 __pycache__/
 *.pyc
 .env
+.env.local
 venv/
+env/
 .streamlit/secrets.toml
+*.log
+.DS_Store
+node_modules/
+dist/
+build/
